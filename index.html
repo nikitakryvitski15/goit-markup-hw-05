@@ -29,13 +29,19 @@
           >
           <ul class="contacts-size">
             <li>
-              <a class="link-tab" href="index.html">Agencja </a>
+              <div class="menu-underline">
+                <a class="link-tab" href="index.html">Agencja </a>
+              </div>
             </li>
             <li>
-              <a class="link-tab" href="portfolio.html">Portfolio</a>
+              <div>
+                <a class="link-tab" href="portfolio.html">Portfolio</a>
+              </div>
             </li>
             <li>
-              <a class="link-tab" href="index.html">Kontakt</a>
+              <div>
+                <a class="link-tab" href="index.html">Kontakt</a>
+              </div>
             </li>
           </ul>
         </nav>
@@ -66,7 +72,16 @@
             EFEKTYWNE ROZWIĄZANIA<br />
             DLA WASZEGO BIZNESU
           </h1>
-          <button type="button" class="order-text">Zamów usługe</button>
+          <button data-modal-open type="button" class="order-text">
+            Zamów usługe
+          </button>
+        </div>
+        <div data-modal class="backdrop is-hidden">
+          <div class="modal">
+            <button data-modal-close type="button" class="button-close">
+              X
+            </button>
+          </div>
         </div>
       </section>
       <section class="section">
@@ -120,28 +135,37 @@
           <h2 class="two-level">Czym się zajmujemy</h2>
           <ul class="photo">
             <li>
-              <img
-                src="images/fot_1.jpg"
-                width="370"
-                height="294"
-                alt="kodowanie"
-              />
+              <figure class="img-and-title">
+                <img
+                  src="images/fot_1.jpg"
+                  width="370"
+                  height="294"
+                  alt="kodowanie"
+                />
+                <figcaption class="img-title">APLIKACJE KOMPUTEROWE</figcaption>
+              </figure>
             </li>
             <li>
-              <img
-                src="images/fot_2.jpg"
-                width="370"
-                height="294"
-                alt="testowanie aplikacji na telefonie"
-              />
+              <figure class="img-and-title">
+                <img
+                  src="images/fot_2.jpg"
+                  width="370"
+                  height="294"
+                  alt="testowanie aplikacji na telefonie"
+                />
+                <figcaption class="img-title">APLIKACJE MOBILNE</figcaption>
+              </figure>
             </li>
             <li>
-              <img
-                src="images/fot_3.jpg"
-                width="370"
-                height="294"
-                alt="tablet"
-              />
+              <figure class="img-and-title">
+                <img
+                  src="images/fot_3.jpg"
+                  width="370"
+                  height="294"
+                  alt="tablet"
+                />
+                <figcaption class="img-title">ROZWIĄZANIA GRAFICZNE</figcaption>
+              </figure>
             </li>
           </ul>
         </div>
@@ -165,28 +189,28 @@
                   <ul class="icons-card">
                     <li>
                       <a class="icons-card-links">
-                        <svg class="icon-instagram" width="20" height="20">
+                        <svg width="20" height="20">
                           <use href="images/icons.svg#icon-instagram-2"></use>
                         </svg>
                       </a>
                     </li>
                     <li>
                       <a class="icons-card-links">
-                        <svg class="icon-twitter" width="20" height="20">
+                        <svg width="20" height="20">
                           <use href="images/icons.svg#icon-twitter-1"></use>
                         </svg>
                       </a>
                     </li>
                     <li>
                       <a class="icons-card-links">
-                        <svg class="icon-facebook" width="20" height="20">
+                        <svg width="20" height="20">
                           <use href="images/icons.svg#icon-facebook-1"></use>
                         </svg>
                       </a>
                     </li>
                     <li>
                       <a class="icons-card-links">
-                        <svg class="icon-in" width="20" height="20">
+                        <svg width="20" height="20">
                           <use href="images/icons.svg#icon-linkedin-1"></use>
                         </svg>
                       </a>
@@ -210,28 +234,28 @@
                   <ul class="icons-card">
                     <li>
                       <a class="icons-card-links">
-                        <svg class="icon-instagram" width="20" height="20">
+                        <svg width="20" height="20">
                           <use href="images/icons.svg#icon-instagram-2"></use>
                         </svg>
                       </a>
                     </li>
                     <li>
                       <a class="icons-card-links">
-                        <svg class="icon-twitter" width="20" height="20">
+                        <svg width="20" height="20">
                           <use href="images/icons.svg#icon-twitter-1"></use>
                         </svg>
                       </a>
                     </li>
                     <li>
                       <a class="icons-card-links">
-                        <svg class="icon-facebook" width="20" height="20">
+                        <svg width="20" height="20">
                           <use href="images/icons.svg#icon-facebook-1"></use>
                         </svg>
                       </a>
                     </li>
                     <li>
                       <a class="icons-card-links">
-                        <svg class="icon-in" width="20" height="20">
+                        <svg width="20" height="20">
                           <use href="images/icons.svg#icon-linkedin-1"></use>
                         </svg>
                       </a>
@@ -255,28 +279,28 @@
                   <ul class="icons-card">
                     <li>
                       <a class="icons-card-links">
-                        <svg class="icon-instagram" width="20" height="20">
+                        <svg width="20" height="20">
                           <use href="images/icons.svg#icon-instagram-2"></use>
                         </svg>
                       </a>
                     </li>
                     <li>
                       <a class="icons-card-links">
-                        <svg class="icon-twitter" width="20" height="20">
+                        <svg width="20" height="20">
                           <use href="images/icons.svg#icon-twitter-1"></use>
                         </svg>
                       </a>
                     </li>
                     <li>
                       <a class="icons-card-links">
-                        <svg class="icon-facebook" width="20" height="20">
+                        <svg width="20" height="20">
                           <use href="images/icons.svg#icon-facebook-1"></use>
                         </svg>
                       </a>
                     </li>
                     <li>
                       <a class="icons-card-links">
-                        <svg class="icon-in" width="20" height="20">
+                        <svg width="20" height="20">
                           <use href="images/icons.svg#icon-linkedin-1"></use>
                         </svg>
                       </a>
@@ -410,28 +434,28 @@
           <ul class="social-media">
             <li class="social-media-icons">
               <a class="social-media-links">
-                <svg class="icon-instagram icon-footer" width="20" height="20">
+                <svg class="icon-footer" width="20" height="20">
                   <use href="images/icons.svg#icon-instagram-2"></use>
                 </svg>
               </a>
             </li>
             <li class="social-media-icons">
               <a class="social-media-links">
-                <svg class="icon-twitter icon-footer" width="20" height="20">
+                <svg class="icon-footer" width="20" height="20">
                   <use href="images/icons.svg#icon-twitter-1"></use>
                 </svg>
               </a>
             </li>
             <li class="social-media-icons">
               <a class="social-media-links">
-                <svg class="icon-facebook icon-footer" width="20" height="20">
+                <svg class="icon-footer" width="20" height="20">
                   <use href="images/icons.svg#icon-facebook-1"></use>
                 </svg>
               </a>
             </li>
             <li class="social-media-icons">
               <a class="social-media-links">
-                <svg class="icon-in icon-footer" width="20" height="20">
+                <svg class="icon-footer" width="20" height="20">
                   <use href="images/icons.svg#icon-linkedin-1"></use>
                 </svg>
               </a>
@@ -440,5 +464,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
